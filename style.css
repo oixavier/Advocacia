@@ -1,0 +1,36 @@
+.carousel {
+  padding-top: 6vh;
+}
+
+.imagem-carrossel {
+  object-fit: cover;
+  height: 44vh;
+}
+
+.container-cards {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.card {
+  text-align: justify;
+}
+
+.img-card {
+  width: 64px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.thumb {
+  background-color: #fff;
+}
+
+.thumbnail {
+  border-radius: 50%; 
+  width: 250px; 
+  height: 250px; 
+  object-fit: cover;
+}
