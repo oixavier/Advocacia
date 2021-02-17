@@ -1,10 +1,21 @@
-.carousel {
-  padding-top: 6vh;
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+.font-cardo {
+  font-family: 'Cardo', serif;
+}
+
+.font-size {
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-size: 22px;
 }
 
 .imagem-carrossel {
   object-fit: cover;
-  height: 44vh;
+  margin-top: 56px;
+  height: calc(65vh - 56px);
 }
 
 .container-cards {
@@ -33,4 +44,16 @@
   width: 250px; 
   height: 250px; 
   object-fit: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar-brand {
+    font-size: 14px;
+  }
 }
